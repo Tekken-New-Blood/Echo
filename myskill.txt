@@ -1,0 +1,5 @@
+.auto .myskill {params}={init}
+ParamRegex.((?i)beginner)?:{role:Beginner}{/user} you now have role Beginner 
+ParamRegex.((?i)intermediate)?:{role:Intermediate}{/user} you now have role Intermediate 
+ParamRegex.((?i)advanced)?:{role:Advanced}{/user} you now have the role Advanced 
+Response.nil?:You're trying to access a skill that's not allowed to be given to you or you used incorrect syntax/spelling. 

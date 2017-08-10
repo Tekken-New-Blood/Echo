@@ -1,0 +1,5 @@
+.auto .mysystem {params}={init}
+ParamRegex.((?i)p\s?c)?:{role:PC} You are on PC!
+ParamRegex.((?i)ps4)?:{role:PS4} You are on PS4!
+ParamRegex.((?i)xbox1?(one)?)?:{role:Xbox} You are on Xbox!
+Response.nil?:You're trying to access a role that's not allowed to be given to you or you used incorrect syntax/spelling.

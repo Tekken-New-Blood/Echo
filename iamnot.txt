@@ -1,0 +1,66 @@
+.auto .iamnot {params}={init}
+ParamRegex.((?i)pc)?:{take:PC}{/user} you are not on pc
+ParamRegex.((?i)ps4)?:{take:PS4} you are not on ps4!
+ParamRegex.((?i)xbox1?(one)?)?:{take:Xbox}{/user} you are not on xbox 
+ParamRegex.((?i)u\s?s)?:{take:US}{/user} you are not in the US region 
+ParamRegex.((?i)Eu(rope)?)?:{take:Europe}{/user} you are not in the Europe region 
+ParamRegex.((?i)west\s?coast)?:{take:WestCoast}{/user} you are not in the westcoast region 
+ParamRegex.((?i)central)?:{take:Central}{/user} you are not in the central region 
+ParamRegex.((?i)east\s?coast)?:{take:EastCoast}{/user} you are not in the eastcoast region 
+ParamRegex.((?i)south\s?asia)?:{take:SouthAsia}{/user} you are not in the South Asia region
+ParamRegex.((?i)Asia)?:{take:Asia}{/user} you are not in the Asia region! 
+ParamRegex.((?i)N\s?A)?:{take:NA}{/user} you are not in the NA region! 
+ParamRegex.((?i)Oceania)?:{take:Oceania}{/user} you are not in the Oceania region! 
+ParamRegex.((?i)beginner)?:{take:Beginner}{/user} you no longer have the beginner role 
+ParamRegex.((?i)intermediate)?:{take:Intermediate}{/user} you no longer have the intermediate role 
+ParamRegex.((?i)coach)?:{take:Coach}{/user} you no longer have the coach role 
+ParamRegex.((?i)advanced)?:{take:Advanced}{/user} you no longer have the advanced role 
+ParamRegex.((?i)Kazuya)?:{take:Kazuya}{/user} doesn't main Kazuya 
+ParamRegex.((?i)Akuma)?:{take:Akuma}{/user} doesn't main Akuma 
+ParamRegex.((?i)Lili)?:{take:Lili}{/user} doesn't main Lili 
+ParamRegex.((?i)Yoshi(mitsu)?)?:{take:Yoshimitsu}{/user} doesn't main Yoshimitsu 
+Response.nil?:{ars:iamnot2}
+
+.auto iamnot2={init}
+{arslock}
+ParamRegex.((?i)Josie)?:{take:Josie}{/user} doesn't main Josie
+ParamRegex.((?i)Nina)?:{take:Nina Williams}You don't main Nina Williams
+ParamRegex.((?i)(Marshall)?\s?Law)?:{take:Marshall Law}{/user} doesn't main Marshall Law 
+ParamRegex.((?i)Kazumi)?:{take:Kazumi}{/user} doesn't main Kazumi 
+ParamRegex.((?i)Paul)?:{take:Paul}{/user} doesn't main Paul 
+ParamRegex.((?i)Dragunov)?:{take:Dragunov}{/user} doesn't main Dragunov 
+ParamRegex.((?i)Leo)?:{take:Leo}{/user} doesn't main Leo 
+ParamRegex.((?i)Claudio)?:{take:Claudio}{/user} doesn't main Claudio 
+ParamRegex.((?i)Steve)?:{take:Steve}{/user} doesn't main Steve 
+ParamRegex.((?i)(Lucky)?\s?Chloe)?:{take:Lucky Chloe}{/user} doesn't main Lucky Chloe 
+ParamRegex.((?i)Devil\s?(Jin)?)?:{take:Devil Jin}{/user} doesn't main Devil Jin 
+ParamRegex.((?i)Alisa)?:{take:Alisa}{/user} doesn't main Alisa 
+ParamRegex.((?i)Asuka)?:{take:Asuka}{/user} doesn't main Asuka 
+ParamRegex.((?i)Bob)?:{take:Bob}{/user} doesn't main Bob 
+ParamRegex.((?i)Bryan)?:{take:Bryan}{/user} doesn't main Bryan 
+ParamRegex.((?i)Eddy)?:{take:Eddy}{/user} doesn't main Eddy 
+ParamRegex.((?i)Eliza)?:{take:Eliza}{/user} doesn't main Eliza 
+ParamRegex.((?i)Feng)?:{take:Feng}{/user} doesn't main Feng 
+ParamRegex.((?i)Gigas)?:{take:Gigas}{/user} doesn't main Gigas 
+ParamRegex.((?i)Heihachi)?:{take:Heihachi}{/user} doesn't main Heihachi 
+ParamRegex.((?i)Hwoarang)?:{take:Hwoarang}{/user} doesn't main Hwoarang 
+Response.nil?:{ars:iamnot3}
+
+
+.auto iamnot3={init}
+{arslock}
+ParamRegex.((?i)Jack-?\s?7?)?:{take:Jack-7}{/user} doesn't main Jack-7 
+ParamRegex.((?i)Jin)?:{take:Jin}{/user} doesn't main Jin 
+ParamRegex.((?i)King)?:{take:King}{/user} doesn't main King 
+ParamRegex.((?i)Katarina)?:{take:Katarina}{/user} doesn't main Katarina 
+ParamRegex.((?i)Kuma)?:{take:Kuma}{/user} doesn't main Kuma 
+ParamRegex.((?i)Lars)?:{take:Lars}{/user} doesn't main Lars 
+ParamRegex.((?i)Lee\s?(Chaolan)?)?:{take:Lee Chaolan}{/user} doesn't main Lee Chaolan 
+ParamRegex.((?i)(Master)?\s?Raven)?:{take:Master Raven}{/user} doesn't main Master Ravan 
+ParamRegex.((?i)Miguel)?:{take:Miguel}{/user} doesn't main Miguel 
+ParamRegex.((?i)Panda)?:{take:Panda}{/user} doesn't main Panda 
+ParamRegex.((?i)Shaheen)?:{take:Shaheen}{/user} doesn't main Shaheen 
+ParamRegex.((?i)Xiaoyu)?:{take:Xiaoyu}{/user} doesn't main Xiaoyu
+ParamRegex.((?i)middle\s?east)?:{take:MiddleEast} You are not in the Middle East region!
+ParamRegex.((?i)new\s?blood)?:{take:NewBlood}{/user} your NewBlood role has been removed.
+Response.nil?:You're trying to delete a role that doesn’t exist or you used incorrect syntax/spelling. 

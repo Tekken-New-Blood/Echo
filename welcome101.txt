@@ -1,0 +1,5 @@
+.auto welcome101={init}
+{arslock}
+{delme:30s}
+Welcome to the Tekken 7 beginners discord {user} ! You have been given the NewBlood role to help the bot assign your other roles. Make sure to check out the #set_role channel to choose your roles! You can use "!help" to see a list of commands or check out #bot_commands.
+{role:NewBlood}

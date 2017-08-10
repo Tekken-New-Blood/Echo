@@ -1,0 +1,12 @@
+.auto .myregion {params}={init}
+ParamRegex.((?i)u\s?s)?:{role:US} You are in the US region!
+ParamRegex.((?i)eu(rope)?)?:{role:Europe} You are in the Europe region!
+ParamRegex.((?i)west\s?coast)?:{role:WestCoast} You are in the WestCoast region!
+ParamRegex.((?i)central)?:{role:Central} You are in the Central region!
+ParamRegex.((?i)east\s?coast)?:{role:EastCoast} You are in the EastCoast region!
+ParamRegex.((?i)south\s?asia)?:{role:SouthAsia} You are in the South Asia region!
+ParamRegex.((?i)asia)?:{role:Asia} You are in the Asia region!
+ParamRegex.((?i)n\s?a)?:{role:NA} You are in the NA region!
+ParamRegex.((?i)oceania)?:{role:Oceania} You are in the Oceania region!
+ParamRegex.((?i)middle\s?east)?:{role:MiddleEast} You are in the Middle East region!
+Response.nil?:You're trying to access a role that's not allowed to be given to you or you used incorrect syntax/spelling.

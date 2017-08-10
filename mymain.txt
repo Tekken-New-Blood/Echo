@@ -1,0 +1,43 @@
+.auto .mymain {params}={init} 
+ParamRegex.((?i)Kazuya)?:{role:Kazuya}{/user} mains Kazuya 
+ParamRegex.((?i)Akuma)?:{role:Akuma}{/user} mains Akuma 
+ParamRegex.((?i)Lili)?:{role:Lili}{/user} mains Lili 
+ParamRegex.((?i)Yoshi(mitsu)?)?:{role:Yoshimitsu}{/user} mains Yoshimitsu 
+ParamRegex.((?i)Nina\s?(Williams)?)?:{role:Nina Williams}{/user} mains Nina Williams 
+ParamRegex.((?i)Josie)?:{role:Josie}{/user} mains Josie 
+ParamRegex.((?i)(Marshall)?\s?Law)?:{role:Marshall Law}{/user} mains Marshall Law 
+ParamRegex.((?i)Kazumi)?:{role:Kazumi}{/user} mains Kazumi 
+ParamRegex.((?i)Paul)?:{role:Paul}{/user} mains Paul  
+ParamRegex.((?i)Dragunov)?:{role:Dragunov}{/user} mains Dragunov 
+ParamRegex.((?i)Leo)?:{role:Leo}{/user} mains Leo 
+ParamRegex.((?i)Claudio)?:{role:Claudio}{/user} mains Claudio 
+ParamRegex.((?i)Steve)?:{role:Steve}{/user} mains Steve 
+ParamRegex.((?i)(Lucky)?\s?Chloe)?:{role:Lucky Chloe}{/user} mains Lucky Chloe 
+ParamRegex.((?i)Devil\s?(Jin)?)?:{role:Devil Jin}{/user} mains Devil Jin 
+ParamRegex.((?i)Alisa)?:{role:Alisa}{/user} mains Alisa 
+ParamRegex.((?i)Asuka)?:{role:Asuka}{/user} mains Asuka 
+Response.nil?:{ars:mymain2}
+
+.auto mymain2={init}
+{arslock}
+ParamRegex.((?i)Bob)?:{role:Bob}{/user} mains Bob 
+ParamRegex.((?i)Bryan)?:{role:Bryan}{/user} mains Bryan 
+ParamRegex.((?i)Eddy)?:{role:Eddy}{/user} mains Eddy 
+ParamRegex.((?i)Eliza)?:{role:Eliza}{/user} mains Eliza 
+ParamRegex.((?i)Feng)?:{role:Feng}{/user} mains Feng 
+ParamRegex.((?i)Gigas)?:{role:Gigas}{/user} mains Gigas 
+ParamRegex.((?i)Heihachi)?:{role:Heihachi}{/user} mains Heihachi 
+ParamRegex.((?i)Hwoarang)?:{role:Hwoarang}{/user} mains Hwoarang 
+ParamRegex.((?i)Jack-?\s?7?)?:{role:Jack-7}{/user} mains Jack-7 
+ParamRegex.((?i)Jin)?:{role:Jin}{/user} mains Jin 
+ParamRegex.((?i)King)?:{role:King}{/user} mains King 
+ParamRegex.((?i)Katarina)?:{role:Katarina}{/user} mains Katarina 
+ParamRegex.((?i)Kuma)?:{role:Kuma}{/user} mains Kuma 
+ParamRegex.((?i)Lars)?:{role:Lars}{/user} mains Lars 
+ParamRegex.((?i)Lee\s?(Chaolan)?)?:{role:Lee Chaolan}{/user} mains Lee Chaolan  
+ParamRegex.((?i)(Master)?\s?Raven)?:{role:Master Raven}{/user} mains Master Raven 
+ParamRegex.((?i)Miguel)?:{role:Miguel}{/user} mains Miguel 
+ParamRegex.((?i)Panda)?:{role:Panda}{/user} mains Panda 
+ParamRegex.((?i)Shaheen)?:{role:Shaheen}{/user} mains Shaheen 
+ParamRegex.((?i)Xiaoyu)?:{role:Xiaoyu}{/user} mains Xiaoyu 
+Response.nil?: Role not allowed or wrong syntax 
