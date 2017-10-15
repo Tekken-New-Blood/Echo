@@ -1,0 +1,1 @@
+Regex for setting up the Echo discord bot for Tekken NB Discord.
