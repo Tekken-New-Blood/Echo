@@ -39,5 +39,7 @@ ParamRegex.((?i)(Master)?\s?Raven)?:{role:Master Raven}{/user} mains Master Rave
 ParamRegex.((?i)Miguel)?:{role:Miguel}{/user} mains Miguel 
 ParamRegex.((?i)Panda)?:{role:Panda}{/user} mains Panda 
 ParamRegex.((?i)Shaheen)?:{role:Shaheen}{/user} mains Shaheen 
-ParamRegex.((?i)Xiaoyu)?:{role:Xiaoyu}{/user} mains Xiaoyu 
+ParamRegex.((?i)Xiaoyu)?:{role:Xiaoyu}{/user} mains Xiaoyu
+ParamRegex.((?i)Noctis)?:{role:Noctis}{/user} mains Noctis
+ParamRegex.((?i)Geese)?:{role:Geese}{/user} mains Geese 
 Response.nil?: Role not allowed or wrong syntax 
