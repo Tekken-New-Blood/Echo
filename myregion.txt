@@ -9,4 +9,5 @@ ParamRegex.((?i)asia)?:{role:Asia} You are in the Asia region!
 ParamRegex.((?i)n\s?a)?:{role:NA} You are in the NA region!
 ParamRegex.((?i)oceania)?:{role:Oceania} You are in the Oceania region!
 ParamRegex.((?i)middle\s?east)?:{role:MiddleEast} You are in the Middle East region!
+ParamRegex.((?i)south\s?america)?:{role:South America} You are in the South America region!
 Response.nil?:You're trying to access a role that's not allowed to be given to you or you used incorrect syntax/spelling.
