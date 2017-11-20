@@ -65,4 +65,5 @@ ParamRegex.((?i)middle\s?east)?:{take:MiddleEast} You are not in the Middle East
 ParamRegex.((?i)new\s?blood)?:{take:NewBlood}{/user} your NewBlood role has been removed.
 ParamRegex.((?i)Noctis)?:{take:Noctis}{/user} doesn't main Noctis 
 ParamRegex.((?i)Geese)?:{take:Geese}{/user} doesn't main Geese
+ParamRegex.((?i)south\s?america)?:{take:South America} You are not in the South America region!
 Response.nil?:You're trying to delete a role that doesn’t exist or you used incorrect syntax/spelling. 
