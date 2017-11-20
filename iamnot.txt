@@ -63,4 +63,6 @@ ParamRegex.((?i)Shaheen)?:{take:Shaheen}{/user} doesn't main Shaheen
 ParamRegex.((?i)Xiaoyu)?:{take:Xiaoyu}{/user} doesn't main Xiaoyu
 ParamRegex.((?i)middle\s?east)?:{take:MiddleEast} You are not in the Middle East region!
 ParamRegex.((?i)new\s?blood)?:{take:NewBlood}{/user} your NewBlood role has been removed.
-Response.nil?:You're trying to delete a role that doesn’t exist or you used incorrect syntax/spelling. 
+ParamRegex.((?i)Noctis)?:{take:Noctis}{/user} doesn't main Noctis 
+ParamRegex.((?i)Geese)?:{take:Geese}{/user} doesn't main Geese
+Response.nil?:You're trying to delete a role that doesnâ€™t exist or you used incorrect syntax/spelling. 
